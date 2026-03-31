@@ -3,6 +3,10 @@ import 'package:logic_with_me/screen/imageselction.dart';
 import 'package:logic_with_me/screen/multiselection.dart';
 import 'package:logic_with_me/screen/singelselection.dart';
 import 'package:logic_with_me/screen/toggleselection.dart';
+import 'package:logic_with_me/screen/uploadImage.dart';
+import 'package:logic_with_me/screen/uploadfile.dart';
+import 'package:logic_with_me/screen/uploadmulti_image.dart';
+import 'package:logic_with_me/screen/uploadvideo.dart';
 
 class Root extends StatefulWidget {
   const Root({super.key});
@@ -19,7 +23,11 @@ class _RootState extends State<Root> {
     ImageSelection(),
     Toggleselection(),
     Multiselection(),
-
+/// Second Lesson
+    Uploadimage(),
+    UploadMultiImage(),
+    Uploadvideo(),
+    UploadFile(),
   ];
   final PageController controller = PageController();
 
